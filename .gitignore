@@ -17,5 +17,5 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-Pods/
-Podfile.lock
+#Pods/
+#Podfile.lock
