@@ -16,7 +16,7 @@
  */
 typedef NS_ENUM(NSInteger, NIMMessageType){
     /**
-     *  文本类型消息
+     *  文本类型消息 
      */
     NIMMessageTypeText          = 0,
     /**

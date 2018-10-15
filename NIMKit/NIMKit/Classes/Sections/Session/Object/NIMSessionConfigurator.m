@@ -57,21 +57,21 @@
 - (void)setup:(NIMSessionViewController *)vc
 {
     NIMSession *session    = vc.session;
-    id<NIMSessionConfig> sessionConfig = vc.sessionConfig;
     UITableView *tableView  = vc.tableView;
     NIMInputView *inputView = vc.sessionInputView;
     
-    NIMSessionDataSourceImpl *datasource = [[NIMSessionDataSourceImpl alloc] initWithSession:session config:sessionConfig];
+    id<NIMSessionConfig> sessionConfig = vc.sessionConfig;
+    
     NIMSessionLayoutImpl *layout         = [[NIMSessionLayoutImpl alloc] initWithSession:session config:sessionConfig];
     layout.tableView = tableView;
     layout.inputView = inputView;
     
+    NIMSessionDataSourceImpl *datasource = [[NIMSessionDataSourceImpl alloc] initWithSession:session config:sessionConfig];
     
     _interactor                          = [[NIMSessionInteractorImpl alloc] initWithSession:session config:sessionConfig];
     _interactor.delegate                 = vc;
     _interactor.dataSource               = datasource;
     _interactor.layout                   = layout;
-    
     [layout setDelegate:_interactor];
     
     _tableAdapter = [[NIMSessionTableAdapter alloc] init];
