@@ -345,49 +345,6 @@
     [self changeLeftBarBadge:totalUnreadCount];
 }
 
-#pragma mark - NIMMediaManagerDelegate
-- (void)recordAudio:(NSString *)filePath didBeganWithError:(NSError *)error {
-    if (!filePath || error) {
-        _sessionInputView.recording = NO;
-        [self onRecordFailed:error];
-    }
-}
-
-- (void)recordAudio:(NSString *)filePath didCompletedWithError:(NSError *)error {
-    if(!error) {
-        if ([self recordFileCanBeSend:filePath]) {
-            [self sendMessage:[NIMMessageMaker msgWithAudio:filePath]];
-        }else{
-            [self showRecordFileNotSendReason];
-        }
-    } else {
-        [self onRecordFailed:error];
-    }
-    _sessionInputView.recording = NO;
-}
-
-- (void)recordAudioDidCancelled {
-    _sessionInputView.recording = NO;
-}
-
-- (void)recordAudioProgress:(NSTimeInterval)currentTime {
-    [_sessionInputView updateAudioRecordTime:currentTime];
-}
-
-- (void)recordAudioInterruptionBegin {
-    [[NIMSDK sharedSDK].mediaManager cancelRecord];
-}
-
-#pragma mark - 录音相关接口
-- (void)onRecordFailed:(NSError *)error{}
-
-- (BOOL)recordFileCanBeSend:(NSString *)filepath
-{
-    return YES;
-}
-
-- (void)showRecordFileNotSendReason{}
-
 #pragma mark - NIMInputDelegate
 
 - (void)didChangeInputHeight:(CGFloat)inputHeight
@@ -404,6 +361,22 @@
         handled = YES;
     }
     return handled;
+}
+
+#pragma mark - NIMMeidaButton,响应用户操作，发消息
+- (void)onTapMediaItemPicture:(NIMMediaItem *)item
+{
+    [self.interactor mediaPicturePressed];
+}
+
+- (void)onTapMediaItemShoot:(NIMMediaItem *)item
+{
+    [self.interactor mediaShootPressed];
+}
+
+- (void)onTapMediaItemLocation:(NIMMediaItem *)item
+{
+    [self.interactor mediaLocationPressed];
 }
 
 - (void)onTextChanged:(id)sender{}
@@ -459,16 +432,6 @@
 - (void)onSelectChartlet:(NSString *)chartletId
                  catalog:(NSString *)catalogId{}
 
-- (void)onCancelRecording
-{
-    [[NIMSDK sharedSDK].mediaManager cancelRecord];
-}
-
-- (void)onStopRecording
-{
-    [[NIMSDK sharedSDK].mediaManager stopRecord];
-}
-
 - (void)onStartRecording
 {
     _sessionInputView.recording = YES;
@@ -479,8 +442,61 @@
     [[NIMSDK sharedSDK].mediaManager addDelegate:self];
     
     [[NIMSDK sharedSDK].mediaManager record:type
-                                     duration:duration];
+                                   duration:duration];
 }
+
+- (void)onStopRecording
+{
+    [[NIMSDK sharedSDK].mediaManager stopRecord];
+}
+
+- (void)onCancelRecording
+{
+    [[NIMSDK sharedSDK].mediaManager cancelRecord];
+}
+
+#pragma mark - NIMMediaManagerDelegate
+- (void)recordAudio:(NSString *)filePath didBeganWithError:(NSError *)error {
+    if (!filePath || error) {
+        _sessionInputView.recording = NO;
+        [self onRecordFailed:error];
+    }
+}
+
+- (void)recordAudio:(NSString *)filePath didCompletedWithError:(NSError *)error {
+    if(!error) {
+        if ([self recordFileCanBeSend:filePath]) {
+            [self sendMessage:[NIMMessageMaker msgWithAudio:filePath]];
+        }else{
+            [self showRecordFileNotSendReason];
+        }
+    } else {
+        [self onRecordFailed:error];
+    }
+    _sessionInputView.recording = NO;
+}
+
+- (void)recordAudioDidCancelled {
+    _sessionInputView.recording = NO;
+}
+
+- (void)recordAudioProgress:(NSTimeInterval)currentTime {
+    [_sessionInputView updateAudioRecordTime:currentTime];
+}
+
+- (void)recordAudioInterruptionBegin {
+    [[NIMSDK sharedSDK].mediaManager cancelRecord];
+}
+
+#pragma mark - 录音相关接口
+- (void)onRecordFailed:(NSError *)error{}
+
+- (BOOL)recordFileCanBeSend:(NSString *)filepath
+{
+    return YES;
+}
+
+- (void)showRecordFileNotSendReason{}
 
 #pragma mark - NIMMessageCellDelegate
 - (BOOL)onTapCell:(NIMKitEvent *)event{
@@ -699,22 +715,6 @@
 - (void)uiCheckReceipts:(NSArray<NIMMessageReceipt *> *)receipts
 {
     [self.interactor checkReceipts:receipts];
-}
-
-#pragma mark - NIMMeidaButton
-- (void)onTapMediaItemPicture:(NIMMediaItem *)item
-{
-    [self.interactor mediaPicturePressed];
-}
-
-- (void)onTapMediaItemShoot:(NIMMediaItem *)item
-{
-    [self.interactor mediaShootPressed];
-}
-
-- (void)onTapMediaItemLocation:(NIMMediaItem *)item
-{
-    [self.interactor mediaLocationPressed];
 }
 
 #pragma mark - 旋转处理 (iOS8 or above)
