@@ -243,6 +243,14 @@
     [self.tableView insertRowsAtIndexPaths:addIndexPathes withRowAnimation:UITableViewRowAnimationBottom];
     [self.tableView endUpdates];
     
+    /**
+     为了处理键盘遮挡问题，tableView的top值会在不同状态下设置为不同的值。
+     状态有两种包括:
+        1，内容的高度大于tableView的高度减去键盘高度；    （tableView的高度需要改变）
+        2，内容的高度小于等于 tableView的高度减去键盘高度；（这种情况下tableView的top不需要改变）
+     在insert，存在状态1至状态2的切换，这时就需要resetLayout。
+     不过感觉这里直接resetLayout不太合理。内部调用adjustTableView浪费计算，这里可以优化！  
+     */
     [UIView animateWithDuration:0.25 delay:0 options:7 animations:^{
         [self resetLayout];
     } completion:nil];
@@ -255,12 +263,14 @@
     [self.tableView beginUpdates];
     [self.tableView deleteRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationNone];
     [self.tableView endUpdates];
-    NSInteger row = [self.tableView numberOfRowsInSection:0] - 1;
-    if (row > 0)
-    {
-        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:row inSection:0];
-        [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-    }
+    
+//   删除之后就滑动到最后一个？ 不合理吧！    
+//    NSInteger row = [self.tableView numberOfRowsInSection:0] - 1;
+//    if (row > 0)
+//    {
+//        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:row inSection:0];
+//        [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+//    }
 }
 
 

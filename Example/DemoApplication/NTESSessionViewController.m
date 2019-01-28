@@ -15,7 +15,7 @@
 @property (nonatomic,strong) NTESSessionConfig *config;
 
 @end
-
+ 
 @implementation NTESSessionViewController
 
 - (instancetype)initWithSession:(NIMSession *)session

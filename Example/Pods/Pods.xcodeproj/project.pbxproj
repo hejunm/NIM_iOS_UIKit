@@ -496,7 +496,7 @@
 		15D997725E5A92B98E8F1688ACE74168 /* NIMCommonTableDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMCommonTableDelegate.h; sourceTree = "<group>"; };
 		168F26AF7CA0DF19C265D98120155FD0 /* NIMInputAtCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMInputAtCache.h; sourceTree = "<group>"; };
 		17359A1BB55AB258FF77562FADBBFB94 /* NIMContactPickedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMContactPickedView.h; sourceTree = "<group>"; };
-		17EA3F0609FAC066E202A086059D406D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		17EA3F0609FAC066E202A086059D406D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		181E7308B338F5BD15AF033FC59883EF /* NIMKitResourceResizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMKitResourceResizer.m; sourceTree = "<group>"; };
 		1884F838BD0F608EB9AE5197E954353B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		19A0D26C4E894F4326CBFFCAAB177004 /* NIMTipContentConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMTipContentConfig.m; sourceTree = "<group>"; };
@@ -533,7 +533,7 @@
 		30DE30475D31023FF2E58604832F3781 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
 		314B8BE26267E8B74C264473E26080DE /* NIMKitMessageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMKitMessageProvider.h; sourceTree = "<group>"; };
 		31578CE5AB0058B38B09F0A6EEDA1394 /* TZLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZLocationManager.m; path = TZImagePickerController/TZImagePickerController/TZLocationManager.m; sourceTree = "<group>"; };
-		32C2628962D7124788C7EC19B11486E3 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libToast.a; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C2628962D7124788C7EC19B11486E3 /* libToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CB6EBBFC16DEB124CDF55A1F215D11 /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
 		3564BB332A4AF19F5E446F092EE1D995 /* NIMInputMoreContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMInputMoreContainerView.m; sourceTree = "<group>"; };
 		368D64FA0A65E47BF8C167C8ACC3287B /* NIMSessionListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMSessionListCell.m; sourceTree = "<group>"; };
@@ -579,7 +579,7 @@
 		4E071E45370AC8F60B2757143ABB6A21 /* NIMTipContentConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMTipContentConfig.h; sourceTree = "<group>"; };
 		4ED39E58B9E0EC8D44AF25A563D74813 /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
 		4F05611C1EB2477A425C308388B34578 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
-		4F062BA0E44960B055FDF0DC851E19B1 /* libTZImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTZImagePickerController.a; path = libTZImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F062BA0E44960B055FDF0DC851E19B1 /* libTZImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTZImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC12C001C56E3D004B3545373AA1E6F /* NIMKitProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMKitProgressHUD.h; sourceTree = "<group>"; };
 		507FC8D2F5A39ACE2A7CB251977614DC /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZGifPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
 		50BCBD1F1A4CC5E7E04609B89C888E1E /* M80AttributedLabelURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = M80AttributedLabelURL.h; path = M80AttributedLabel/M80AttributedLabelURL.h; sourceTree = "<group>"; };
@@ -591,7 +591,7 @@
 		53BE60D47ADD19C558D46A7F96804F39 /* NIMGrowingInternalTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMGrowingInternalTextView.m; sourceTree = "<group>"; };
 		54358C62D20507E11BC0E933BD503E4E /* NIMKitUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMKitUtil.h; sourceTree = "<group>"; };
 		545FD452E4DCEA5700A88EBD56E97BAB /* UIView+NIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+NIM.h"; sourceTree = "<group>"; };
-		5489081C8E57899A1DF4AE9490ACA8C5 /* NIMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NIMKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5489081C8E57899A1DF4AE9490ACA8C5 /* NIMKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NIMKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		572EF561851CEBAC636AC1AFCF3C0E76 /* NIMTeamInfoData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMTeamInfoData.m; sourceTree = "<group>"; };
 		57850DBF49CAA554AED404F1445D0C82 /* NIMFileContentConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMFileContentConfig.h; sourceTree = "<group>"; };
 		5805E2A61E1197BD67DD3AE1285CD981 /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
@@ -612,7 +612,7 @@
 		60F923432E046CD966932777CFB483CC /* NIMSessionAudioContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMSessionAudioContentView.h; sourceTree = "<group>"; };
 		6286E836C4769C3A257466617D5EBCE3 /* NIMKitUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMKitUtil.m; sourceTree = "<group>"; };
 		6456171E069C280136C4708C7ADE9F75 /* NIMMessageMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMMessageMaker.h; sourceTree = "<group>"; };
-		647A08365C81E8AD272BB37CD43B3A56 /* libPods-DemoApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DemoApplication.a"; path = "libPods-DemoApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647A08365C81E8AD272BB37CD43B3A56 /* libPods-DemoApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E0D7A933971B4A498237B8809AC3AC /* NIMMediaItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMMediaItem.m; sourceTree = "<group>"; };
 		65031AAD9E233E54777FA93898E54996 /* NIMKitSwitcherCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMKitSwitcherCell.h; sourceTree = "<group>"; };
 		66590D49F8D5C16A354D1C777B771147 /* NIMSessionInteractorImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMSessionInteractorImpl.h; sourceTree = "<group>"; };
@@ -686,7 +686,7 @@
 		91DDC0F7306340B052DB36C5954218F2 /* NIMContactSelectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMContactSelectViewController.h; sourceTree = "<group>"; };
 		926C0A41F846E2017FAFB116D047578D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		92DFB55CFBB21735444FA985F85DD1B3 /* NIMKitAudioCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMKitAudioCenter.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E215BBC3595457FE10534A2BA4DCB0 /* NSMutableAttributedString+M80.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+M80.m"; path = "M80AttributedLabel/NSMutableAttributedString+M80.m"; sourceTree = "<group>"; };
 		93F8F7F75204BFE6E9A7C11BDA70E8A2 /* NIMKitFileLocationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMKitFileLocationHelper.h; sourceTree = "<group>"; };
 		943B3E6C64E0599485AE62230D6A11E3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
@@ -707,7 +707,7 @@
 		A19242C6C974F19213A92D4EDFE20F17 /* NIMSessionTimestampCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMSessionTimestampCell.m; sourceTree = "<group>"; };
 		A1D61ECA89B3875B8B755DA24916F993 /* M80AttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M80AttributedLabel-dummy.m"; sourceTree = "<group>"; };
 		A1EB31E8928B0AED4F059429E193FE7D /* NIMKitTimerHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMKitTimerHolder.m; sourceTree = "<group>"; };
-		A3D452E0293DC9913F0684B0CD3169F8 /* libNIMKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNIMKit.a; path = libNIMKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D452E0293DC9913F0684B0CD3169F8 /* libNIMKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNIMKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4722577C2A3F5659BC9FEBFA97925D3 /* NIMSessionNotificationContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMSessionNotificationContentView.h; sourceTree = "<group>"; };
 		A586971BB824F32FF6CAF09B0E5FD2CF /* NIMMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMMessageCell.h; sourceTree = "<group>"; };
 		A66ADB58EEA3B487E711D47846C60530 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
@@ -741,11 +741,11 @@
 		B88C3339BB93E2ECCC5889D5DDC030D8 /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
 		B8CAF6E9DEAA9ADBDE0BA97FC81E8DEA /* NIMGrowingInternalTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMGrowingInternalTextView.h; sourceTree = "<group>"; };
 		B9AF3EC7B496FFBB86CF8843CC7EEDF6 /* NSString+NIMKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+NIMKit.h"; sourceTree = "<group>"; };
-		BA5F01DFD27FFDFCAAF654AB3634E8C2 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5F01DFD27FFDFCAAF654AB3634E8C2 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB671061585E7DEBFC79E44AB00FFF0 /* NIMCellConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMCellConfig.h; sourceTree = "<group>"; };
 		BC6A82DE40055DE8508B73DC52ADB37D /* NIMCreateTeamAnnouncement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMCreateTeamAnnouncement.h; sourceTree = "<group>"; };
 		BC77DF1ED23C6A8F50D955E17245DE1B /* NIMSessionRobotContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMSessionRobotContentView.h; sourceTree = "<group>"; };
-		BD317AB23EFC10CFF83AD10B34B35397 /* libM80AttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libM80AttributedLabel.a; path = libM80AttributedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD317AB23EFC10CFF83AD10B34B35397 /* libM80AttributedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libM80AttributedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9385BD03CE77863D545AC54BD38E89 /* NIMSessionImageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMSessionImageContentView.m; sourceTree = "<group>"; };
 		BDD6A5ABC131B5FCA882EA131CE482FA /* NIMSessionLayoutImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMSessionLayoutImpl.h; sourceTree = "<group>"; };
 		BE1111353DC82725CDEC2373DBAE2615 /* NIMLoadProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMLoadProgressView.h; sourceTree = "<group>"; };
@@ -787,7 +787,7 @@
 		DA742B11CC242403B4481E57AD43B110 /* NIMMessageCellFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMMessageCellFactory.m; sourceTree = "<group>"; };
 		DA801641B22A1F797F6183783CB2F25C /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
 		DB68EF5A040E5896A77EA70752B1156E /* NIMSessionMsgDatasource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NIMSessionMsgDatasource.h; sourceTree = "<group>"; };
-		DBF215F3D26E2098E4FEBB56C4B7B6A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DBF215F3D26E2098E4FEBB56C4B7B6A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD92D3E76BE8A0B3A27AD877C2681C19 /* NIMGroupedData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMGroupedData.m; sourceTree = "<group>"; };
 		DE4E6DF43E020879DB974831E99BDB4C /* NIMKitKeyboardInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMKitKeyboardInfo.m; sourceTree = "<group>"; };
 		DEAED98C271353E73CC9D9128B87A1AC /* NIMSessionMessageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NIMSessionMessageContentView.m; sourceTree = "<group>"; };
@@ -926,7 +926,6 @@
 				A19242C6C974F19213A92D4EDFE20F17 /* NIMSessionTimestampCell.m */,
 				EF1CE00AA17AB470FF5095B3D012836B /* SessionContentView */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -975,7 +974,6 @@
 				F16FC876587CADE4ED66C86535768823 /* NIMGrowingTextView.h */,
 				6A208C0BFAE6F5024AC84A7A97019C09 /* NIMGrowingTextView.m */,
 			);
-			name = GrowingTextView;
 			path = GrowingTextView;
 			sourceTree = "<group>";
 		};
@@ -1023,7 +1021,6 @@
 				0ACEAF35E8B6A6657A4B791614898CF8 /* NIMUsrInfoData.h */,
 				8F17B95D971735F1E969B0B966A02F28 /* NIMUsrInfoData.m */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -1035,7 +1032,6 @@
 				6F793DFCD57753460CB4025A1E965ED1 /* NIMSessionViewController.h */,
 				5B24685522F4A406F6058859ACF8E5A3 /* NIMSessionViewController.m */,
 			);
-			name = ViewController;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -1074,7 +1070,6 @@
 				C7082FFBB3FEAED520F02071DAFDDEC3 /* Cell */,
 				D4D672E64CF51C22AE46C2B2C023B743 /* ContactGroup */,
 			);
-			name = Contact;
 			path = Contact;
 			sourceTree = "<group>";
 		};
@@ -1139,7 +1134,6 @@
 				CA38475861D60D5B8198583973B859E8 /* NIMSessionListViewController.m */,
 				D643704D5AF24EE9036FE42BEB163E5F /* View */,
 			);
-			name = SessionList;
 			path = SessionList;
 			sourceTree = "<group>";
 		};
@@ -1155,7 +1149,6 @@
 				6456171E069C280136C4708C7ADE9F75 /* NIMMessageMaker.h */,
 				95FD8D02A3F7ECF178C8A3FFAFC9F5F3 /* NIMMessageMaker.m */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -1166,7 +1159,6 @@
 				F72ABCC3F719124B4A0B61F5CEB0A730 /* UIView+Toast.m */,
 				79C7835D6B46329EFD18C26EEBB3238C /* Support Files */,
 			);
-			name = Toast;
 			path = Toast;
 			sourceTree = "<group>";
 		};
@@ -1186,7 +1178,6 @@
 				E66C3364C95F71444DDD7682617C5158 /* NIMTimestampModel.h */,
 				69634A82332DC522254FFF0E724DF4D0 /* NIMTimestampModel.m */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -1209,7 +1200,6 @@
 				52BF83BE45270B9ABAFAB1C166A10F57 /* NIMKitRobotTemplateLayout.m */,
 				2E0C8EF4DECA7F5A701CEEFBA7CFEF67 /* NIMKitRobotTemplateParserProtocol.h */,
 			);
-			name = Robot;
 			path = Robot;
 			sourceTree = "<group>";
 		};
@@ -1273,7 +1263,6 @@
 				FE054EDF830C135CD778A3B357992933 /* NIMInputView.m */,
 				1D89F5C4FC2364D241090018CD107E1E /* GrowingTextView */,
 			);
-			name = Input;
 			path = Input;
 			sourceTree = "<group>";
 		};
@@ -1297,7 +1286,6 @@
 				28CB849CF8EA4451B5EF62A6CCCF2A47 /* Model */,
 				D72DB99E8DA9416B6A87157D5E26C0A3 /* View */,
 			);
-			name = Team;
 			path = Team;
 			sourceTree = "<group>";
 		};
@@ -1327,7 +1315,6 @@
 				0DA48DE6B5AC82FAD7FFED75F0C376F1 /* NIMCellLayoutConfig.m */,
 				E27D2E3D383176D3214814872961D7F7 /* Content */,
 			);
-			name = Config;
 			path = Config;
 			sourceTree = "<group>";
 		};
@@ -1336,7 +1323,6 @@
 			children = (
 				35DEAEB61152EC4F9E3C7B068DBF49F2 /* Frameworks */,
 			);
-			name = NIMSDK_LITE;
 			path = NIMSDK_LITE;
 			sourceTree = "<group>";
 		};
@@ -1349,7 +1335,6 @@
 				09A7CFD18FB1E97B9A3E24021C4F7313 /* View */,
 				2BBAF22406B72D1C426FD72E99C9E391 /* ViewController */,
 			);
-			name = Session;
 			path = Session;
 			sourceTree = "<group>";
 		};
@@ -1413,21 +1398,20 @@
 				CE0584A517F7BF20088641D3CFA84E60 /* NIMKitAudioCenter.h */,
 				92DFB55CFBB21735444FA985F85DD1B3 /* NIMKitAudioCenter.m */,
 				E9CB44E88C489D5532B7483B3815EB64 /* NIMSessionConfigurateProtocol.h */,
+				F78966D808A72E7B8274152C571D753B /* NIMSessionPrivateProtocol.h */,
 				8585012F16A2B8B5DC52031F629E9C1D /* NIMSessionConfigurator.h */,
 				E7C0A4C3C80B66E6C71980594F27237A /* NIMSessionConfigurator.m */,
-				D6974ADBD179FB9E52D9512DA7B94AD0 /* NIMSessionDataSourceImpl.h */,
-				43658019C3BCCF47D25684B25AC17F68 /* NIMSessionDataSourceImpl.m */,
 				66590D49F8D5C16A354D1C777B771147 /* NIMSessionInteractorImpl.h */,
 				C80F61BAA0E770CC7D4F865169BA9831 /* NIMSessionInteractorImpl.m */,
 				BDD6A5ABC131B5FCA882EA131CE482FA /* NIMSessionLayoutImpl.h */,
 				1F9F3AA62362C0056F9DA3827969DFC6 /* NIMSessionLayoutImpl.m */,
+				D6974ADBD179FB9E52D9512DA7B94AD0 /* NIMSessionDataSourceImpl.h */,
+				43658019C3BCCF47D25684B25AC17F68 /* NIMSessionDataSourceImpl.m */,
 				DB68EF5A040E5896A77EA70752B1156E /* NIMSessionMsgDatasource.h */,
 				86217026278E0FD6BE15AA3417365C71 /* NIMSessionMsgDatasource.m */,
-				F78966D808A72E7B8274152C571D753B /* NIMSessionPrivateProtocol.h */,
 				087C89C4E2C2AF6A4D62F03094E24274 /* NIMSessionTableAdapter.h */,
 				5B3E550F8CDDD01406DAB2282C91211E /* NIMSessionTableAdapter.m */,
 			);
-			name = Object;
 			path = Object;
 			sourceTree = "<group>";
 		};
@@ -1437,7 +1421,6 @@
 				9F2A02881B3418C3BF563EF97059CA71 /* Core */,
 				07760B17F383E2510E455DE8689AD279 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1464,7 +1447,6 @@
 				00D2BE1994F1CEDE177A885BD1B72CE2 /* NIMSpellingCenter.h */,
 				60EEFAD40DEB57C98905261693368BAD /* NIMSpellingCenter.m */,
 			);
-			name = Spelling;
 			path = Spelling;
 			sourceTree = "<group>";
 		};
@@ -1494,7 +1476,6 @@
 				6E284985F1480DC6B700524177CD8233 /* Robot */,
 				B0ACC767C9FB2CC8BEA6DC84F5EA6E4E /* Spelling */,
 			);
-			name = Util;
 			path = Util;
 			sourceTree = "<group>";
 		};
@@ -1505,7 +1486,6 @@
 				5E6DA1A603C3D75EB03744D8BCCBA5C1 /* NIMContactDataCell.m */,
 				5E2362FEC13C556D49FFC4D0F109C32E /* NIMContactDefines.h */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -1555,7 +1535,6 @@
 				0147648CB9A6908586C9A8AC3E4AD14A /* NIMGroupedUsrInfo.h */,
 				CA6FB62D05858F9F50CDA343B2AC6B3C /* NIMGroupedUsrInfo.m */,
 			);
-			name = ContactGroup;
 			path = ContactGroup;
 			sourceTree = "<group>";
 		};
@@ -1565,7 +1544,6 @@
 				F39B54B3351CAC62176E93A4671D07D0 /* NIMSessionListCell.h */,
 				368D64FA0A65E47BF8C167C8ACC3287B /* NIMSessionListCell.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -1585,7 +1563,6 @@
 				3A9B305BAAB40581DE8840B31AA71EEF /* NIMTimePickerView.h */,
 				6CFF1BC5E102C9FB6E56F3E8F42067C6 /* NIMTimePickerView.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -1615,7 +1592,6 @@
 				9F8C27BF5519D165287AE8A957CD28E6 /* NIMVideoContentConfig.h */,
 				948B0732A7D470DDB7548E9B0441C291 /* NIMVideoContentConfig.m */,
 			);
-			name = Content;
 			path = Content;
 			sourceTree = "<group>";
 		};
@@ -1633,7 +1609,6 @@
 				93E215BBC3595457FE10534A2BA4DCB0 /* NSMutableAttributedString+M80.m */,
 				2FD74E2AB2187F91D3C6A22C479B2DE6 /* Support Files */,
 			);
-			name = M80AttributedLabel;
 			path = M80AttributedLabel;
 			sourceTree = "<group>";
 		};
@@ -1674,7 +1649,6 @@
 				38475879100A078255C05D005A2B753F /* NIMPageView.h */,
 				E7DACF64C5E8BC47CFA4C423ECF3853B /* NIMPageView.m */,
 			);
-			name = Common;
 			path = Common;
 			sourceTree = "<group>";
 		};
@@ -1704,7 +1678,6 @@
 				5DFD7AFEEBDA4501DDC2A039A062FB7F /* NIMSessionVideoContentView.h */,
 				ED75428792A8E16C92BA169B4770DB1F /* NIMSessionVideoContentView.m */,
 			);
-			name = SessionContentView;
 			path = SessionContentView;
 			sourceTree = "<group>";
 		};
@@ -1742,7 +1715,6 @@
 				B2C0C091543E665E018889EE24EC5248 /* Resources */,
 				CC2741C6ACDE2A224AB76C5932518BD8 /* Support Files */,
 			);
-			name = TZImagePickerController;
 			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
